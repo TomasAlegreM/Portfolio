@@ -339,6 +339,9 @@ footer{
     color: #FE4E00;
     transition: 0.2s ease-in;
 }
-@media screen and (min-width: 1160px){
-    
+
+@media screen and (max-width: 1160px){
+  footer{
+    padding: 5px 25px;
+  }
 }
