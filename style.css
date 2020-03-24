@@ -80,11 +80,11 @@ nav ul {
     grid-row: 2 / 3;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    padding: 3em;
+    padding: 2em;
 }
 
 h1{
-    font-size: 3.75em;
+    font-size: 3em;
     margin-top: 0;
     margin-bottom: .5em;
     color: #EEEEEE;
@@ -92,7 +92,7 @@ h1{
 
 .btn{
     text-decoration: none;
-    padding: 10px 38px;
+    padding: 7px 30px;
     font-weight: bold;
     font-size: 25px;
     color: #000000;
@@ -131,13 +131,14 @@ h1 {
 
 img{
     display: flex;
-    height: 300px;
+    height: 200px;
     width: auto;
     margin: auto;
 }
 
 p{
     color: #EEEEEE;
+    font-size: .75em;
 }
 @media screen and (min-width: 1160px){
     .main-2 {
@@ -150,6 +151,7 @@ p{
 }
 img {
     margin: 0;
+    height: 300px;
 }
 
 }
@@ -168,7 +170,7 @@ img {
 }
 
 .about p{
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.5em;
 }
 
@@ -329,6 +331,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     padding: 5px 330px;
+    margin-top: 1em;
 }
 
 .footer-icon{
