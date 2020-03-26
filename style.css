@@ -41,10 +41,10 @@ nav ul li{
 ul li a{
     text-decoration: none;
     color: #B4B4B4;
+    transition:.3s ease-in-out;
 }
 ul li a:hover{
     color: #EEEEEE;
-    transition:.3s;
     font-size: 1.02em
 }
 
@@ -98,12 +98,11 @@ h1{
     color: #000000;
     background-color: #FE4E00;
     border-radius: 30px;
-    
+    transition: 0.2s ease-in-out
 }
 
 .btn:hover{
     color: white;
-    transition: 0.2s ease-in;
 }
 
 @media screen and (min-width: 1160px){
@@ -291,7 +290,6 @@ img {
 .work-images a:hover{
     width: 300px;
     height: 400px;
-    transition:0.2s ease-in;
 }
 
 .gorillaz{
@@ -301,7 +299,8 @@ img {
   background: url(.//images/gorillaz_0.jpg);
   background-position-x: center;
   background-size: cover;
-  border-radius:50px
+  border-radius:50px;
+  transition:0.2s ease-in-out;
 }
 .colores{
   width: 250px;
@@ -310,7 +309,8 @@ img {
   background: url(.//images/colores.jpg);
   background-position-x: center;
   background-size: cover;
-  border-radius:50px
+  border-radius:50px;
+  transition:0.2s ease-in-out;
 }
 .WalterMitty{
   width: 250px;
@@ -319,7 +319,8 @@ img {
   background: url(.//images/WalterMitty.jpg);
   background-size: cover;
   background-position-x: center;
-  border-radius:50px
+  border-radius:50px;
+  transition:0.2s ease-in-out;
 }
 
 }
@@ -336,11 +337,11 @@ footer{
 
 .footer-icon{
     color: #FFFF;
+    transition: 0.1s ease-in-out;
 }
 
 .footer-icon:hover{
     color: #FE4E00;
-    transition: 0.2s ease-in;
 }
 
 @media screen and (max-width: 1160px){
